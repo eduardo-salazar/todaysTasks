@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+
+    <!-- Calendar references -->
+    <link href="../../css/jsDatePick_ltr.min.css" rel="stylesheet" />
+    <script src="../../js/jsDatePick.min.1.3.js"></script>
+    
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Welcome to TodayTasks!</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <section id="leftContent">
+                <section id="addTask">
+                    <h2>Add new Task:</h2>
+                    <input type="text" name="newTaskInput" id="newTaskInput"/>
+                    <button id="addButton">add</button>
+                </section>
+                <div id="template" data-win-control="WinJS.Binding.Template">
+                    <div class="template">
+                        <div class="itemImage">
+                           <img data-win-bind="src:imagen"/ id="checkimage">
+                        </div>
+                        <div class="itemContent">
+                            <div class="itemDate" data-win-bind="innerText:fecha"></div>
+                            <div class="itemTitle" data-win-bind="textContent:titulo"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="taskList" data-win-control="WinJS.UI.ListView" data-win-options="{layout : {type: WinJS.UI.ListLayout},itemDataSource:Datos.TaskList.dataSource,itemTemplate:select('#template')}"></div>
+            </section>
+            <section id="rightContent">
+                <section id="summary">
+                    <label for="description">Description:</label>
+                    <textarea id="description" name="description" rows="4"></textarea>
+                    <label for="date">Date:</label>
+                    <div data-win-control="WinJS.UI.DatePicker" id="date"></div>
+                    <button id="btnSave">Save</button>
+                </section>
+                <section id="comments">
+                    <div data-win-control="WinJS.Binding.Template" id="commentTemplate">
+                        <div class="commentItem">
+                            <p data-win-bind="innerText:comentario"></p>
+                        </div>
+                    </div>
+                    <div id="commentsList" data-win-control="WinJS.UI.ListView" data-win-options="{ layout : {type: WinJS.UI.ListLayout},itemDataSource:Datos.CommentList.dataSource,itemTemplate:select('#commentTemplate')}"></div>
+                    <div id="addComment">
+                        <label for="commentInput">Add Comment:</label>
+                        <textarea id="commentInput" rows="2" wrap="hard" maxlength="255"></textarea>
+                        <button id="btnAddComment">Add</button>
+                    </div>
+                </section>
+            </section>
+        </section>
+         <div id="appbar" data-win-control="WinJS.UI.AppBar">
+            <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id:'cmdDelete', label:'Trash', icon:'delete'}" type="button"></button>
+             
+         </div> 
+    </div>
+</body>
+</html>

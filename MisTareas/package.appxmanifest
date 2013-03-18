@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="35626EduardoSalazar.TodaysTasks" Version="1.0.0.1" Publisher="CN=6BC84097-8E94-4251-AB71-7CA5785F32E7" />
+  <Properties>
+    <DisplayName>TodaysTasks</DisplayName>
+    <PublisherDisplayName>EduardoSalazar</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="TodaysTasks" Logo="images\logo - copia.png" SmallLogo="images\smalllogo.png" Description="With TodaysTaks you can track of the things you have to do and mark them when you finish. You can check your TodaysTask everywhere you go, you only have to install the app and log in with you facebook account and you would get all your tasks updated. Also you can comment things that would help you remind those thing you think important and are related with the tasks you have to accomplish" ForegroundText="light" BackgroundColor="#464646" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" WideLogo="images\logo.png" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="black" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

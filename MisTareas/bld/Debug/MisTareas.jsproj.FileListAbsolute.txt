@@ -1,0 +1,13 @@
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bin\Debug\resources.pri
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bin\Debug\AppxManifest.xml
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bin\Debug\MisTareas.build.appxrecipe
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\priconfig.xml.intermediate
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\layout.resfiles.intermediate
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\resources.resfiles.intermediate
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\pri.resfiles.intermediate
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\priconfig.xml
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\layout.resfiles
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\resources.resfiles
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\pri.resfiles
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\LanguageQualifiers.txt
+C:\Users\Darckblade\Documents\Visual Studio 2012\Projects\Emprendedor 5 estrellas\Estrella3\MisTareas\MisTareas\bld\Debug\ProjectArchitectures.txt
